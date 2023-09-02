@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="icon" href="https://th.bing.com/th/id/OIP.MxN1hKZ5-gY9MVc-iVAqBQHaHW?w=192&h=190&c=7&r=0&o=5&dpr=1.1&pid=1.7">
+        <title>Registration Form</title>
+        <style>
+            table, th, td{
+                background-color: rgb(42, 217, 248);
+                border: 2px solid rgb(247, 245, 245);
+                border: 2 solid rgb(18, 18, 18);
+                border-left: 1.9/px solid rgb(142, 138, 138);
+                border-top: 1.9px solid rgb(142, 138, 138);
+                margin-left:3em
+                
+            }   
+
+            table {
+                background-color: rgb(210, 209, 209);
+                border: 3 solid rgb(18, 18, 18);
+                border-bottom: solid rgb(66, 66, 66);
+                border-right: solid rgb(53, 53, 53);
+                margin-top:2em
+                
+            }
+            input, textarea, b{
+                margin-left: 0.5em;
+            }
+        </style>
+    </head>
+    <body>
+
+        <table>
+            <th colspan="2;" style="text-align:center; color:red; background-color:rgb(252, 255, 151); font-size: 30px;">Registration Form</th>
+            <tr>
+                <td><b></b>Enter Name</td>
+                <td><input type="text" name="Enter Name" size="15px" maxlength="30" /></td>
+                
+            </tr>
+            <tr>
+                <td><b></b>Enter Password</td>
+                <td><input type="password" name="Enter Password" size = "15px" > </td>
+            </tr>
+            <tr>
+                <td><b></b>Email Address</td>
+                <td><textarea name="Address" cols="20" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td><b></b>Select Game</td>
+                
+                <td><input type="checkbox" name="Sport Games"
+                value="Hockey"/>Hockey<br>
+                <input type="checkbox" name="Sport Games"
+                value="FootBall"/>FootBall<br>
+                <input type="checkbox" name="Sport Games"
+                value="Badminton"/>Badminton<br>
+                <input type="checkbox" name="Sport Games"
+                value="Cricket"/>Cricket<br>
+                <input type="checkbox" name="Sport Games"
+                value="Volleyball"/>Volleyball</td>
+            </tr>
+            <tr>
+                <td><b></b>Gender</td>
+                <td>
+                    <input type="radio" name="Gender" value ="Male" /> Male
+                    <input type="radio" name="Gender" value ="Female" /> Female
+                </td>
+            </tr>
+            <tr>
+                <td><b></b>Select ur age</td>
+                <td>
+                    <input type="number" min="1" max="160"/>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><b></b>Select Photo</td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <button style=" width: 125px; height:30px;">Click Me</button>
+                    <button style=" width: 125px; height:30px;">Reset</button>
+                    <button style=" width: 125px; height:30px;">Submit Form</button>
+                </td>
+                
+            </tr>
+
+        </table>
+    </body>
+</html>
